@@ -7,7 +7,8 @@ public class UIManager : MonoBehaviour
     public void ButtonClicked()
     {
         soundManager.PlaySound("button");
-        Luna.Unity.LifeCycle.GameEnded();
-        Luna.Unity.Playable.InstallFullGame();
+        //Luna.Unity.LifeCycle.GameEnded();
+        //Luna.Unity.Playable.InstallFullGame();
+        Debug.Log("CTA!");
     }
 }
